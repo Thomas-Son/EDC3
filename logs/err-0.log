@@ -1,0 +1,14 @@
+2025-12-04 22:27:03 +01:00: (node:11554) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+MongooseServerSelectionError
+    at Connection.openUri (/Users/thomas-son/Desktop/Nodejs-Approfondissement-master/node_modules/mongoose/lib/connection.js:819:32)
+    at /Users/thomas-son/Desktop/Nodejs-Approfondissement-master/node_modules/mongoose/lib/index.js:379:10
+    at /Users/thomas-son/Desktop/Nodejs-Approfondissement-master/node_modules/mongoose/lib/helpers/promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/Users/thomas-son/Desktop/Nodejs-Approfondissement-master/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (/Users/thomas-son/Desktop/Nodejs-Approfondissement-master/node_modules/mongoose/lib/index.js:1224:10)
+    at Mongoose.connect (/Users/thomas-son/Desktop/Nodejs-Approfondissement-master/node_modules/mongoose/lib/index.js:378:20)
+    at Object.<anonymous> (/Users/thomas-son/Desktop/Nodejs-Approfondissement-master/www/app.js:5:10)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
